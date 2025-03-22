@@ -83,7 +83,48 @@
         
         
       },
-    
+      "product": {
+        "classic": {
+          "title": "Ortacha Gulqand",
+          "description": "100% tabiiy atirgul barglaridan tayyorlangan an’anaviy gulqand.",
+          "features": [
+            "100% Tabiiy",
+            "Konservantlarsiz",
+            "Antioksidantlarga boy",
+            "Gramm :300"
+
+          ]
+        },
+        "premium": {
+          "title": "Katta Gulqand",
+          "description": "Tabiiy asal qo‘shilgan, boy ta’mli va foydali gulqand.",
+          "features": [
+            "Premium sifat",
+            "Nozik va o‘ziga xos ta’m",
+            "Gramm :400"
+          ]
+        },
+        "royal": {
+          "title": "Kichkina Gulqandi",
+          "description": "Za’faron va kardamon bilan boyitilgan maxsus retsept.",
+          "price":"Mavjud emas",
+          "features": [
+            "100% Tabiiy",
+            "Konservantlarsiz",
+            "Gramm :250"
+          ]
+
+        }
+      },
+      "footer": {
+        "contacts": "Aloqa",
+        "email": "Elektron pochta",
+        "phone": "Telefon",
+        "navigation": "Navigatsiya",
+        "followUs": "Bizni kuzatib boring",
+        "rights": "Barcha huquqlar himoyalangan",
+        "privacyPolicy": "Maxfiylik siyosati"
+      },
     
     "about.title": "Biz Haqimizda",
     "about.description": "Gulqand tayyorlash san'atini avloddan-avlodga yetkazib kelmoqdamiz",
@@ -99,7 +140,7 @@
       "title": "Biz bilan bog'laning",
       "description": "Mahsulotlarimiz haqida savollaringiz bormi? Biz sizni eshitishdan xursand bo'lamiz!",
       "visit": "Bizning manzilimiz",
-      "address": "123 Atirgul bog'i ko'chasi\nMumbay, Hindiston 400001",
+      "address": "Babaxonov ko‘chasi 31, Salar shaharchasi, Qibray tumani, Toshkent viloyati",
       "call": "Bizga qo'ng'iroq qiling",
       "phone": "+998 97 765 19 41 \nDushanba-Shanba: 9:00 - 18:00",
       "emailTitle": "Bizga yozing",
@@ -108,6 +149,16 @@
       "emailPlaceholder": "Emailingiz",
       "message": "Xabaringiz",
       "send": "Xabar yuborish"
+    },
+    "about": {
+      "title": "Biz haqimizda",
+      "description": [
+        "Gulqand — atirgul barglaridan tayyorlangan shirin murabbo bo‘lib, u asrlar davomida an’anaviy hind va fors oshxonasida qadrlangan. Bizning yo‘limiz ushbu qadimiy san’atni saqlab qolish ishtiyoqidan boshlandi.",
+        "Har bir gulqand bankasi ehtiyotkorlik bilan tanlangan atirgul barglaridan tayyorlanadi va avloddan-avlodga o‘tib kelayotgan an’anaviy usullar asosida qayta ishlanadi. Biz haqiqiy ta’mini saqlab qolish va eng yuqori sifat standartlarini ta’minlash bilan faxrlanamiz.",
+        "Sifatga bo‘lgan intilishimiz eng yaxshi gullarni tanlashdan boshlanadi, ular erta tongda, eng xushbo‘y vaqtda yig‘ib olinadi. Keyin barglar qadimiy usullar bilan toza shakar yordamida qayta ishlanib, bu mo‘jizaviy murabbo tayyorlanadi."
+      ],
+      "years": "Yil",
+      "excellence": "Tajribasi"
     },
     "footer.logoAlt": "Gulqand Logotipi",
     "footer.description": "Atirgul bargi murabbosini tayyorlashning qadimiy san'atini an'anaviy usullar va toza ingredientlar bilan saqlab qolmoqdamiz.",

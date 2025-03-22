@@ -10,14 +10,14 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 5vw, 2.5rem); /* Динамическое изменение */
   color: #333;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .section-description {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: var(--text-color);
   text-align: center;
   max-width: 800px;
@@ -27,7 +27,7 @@
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Гибкая сетка */
   gap: 30px;
   margin-top: 50px;
 }
@@ -55,7 +55,7 @@
 }
 
 .product-title {
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
   color: #333;
   margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@
 .product-description {
   color: #666;
   margin-bottom: 15px;
-  font-size: 0.9rem;
+  font-size: clamp(0.85rem, 2vw, 0.9rem);
 }
 
 .products.features {
@@ -102,32 +102,77 @@
 }
 
 .buy-button {
-  padding: 8px 20px;
+  padding: 12px 20px;
   background-color: #FF1493;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
 .buy-button:hover {
   background-color: #ff0080;
 }
 
+/* Адаптивность */
 @media (max-width: 1024px) {
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .products {
+    padding: 60px 0;
   }
 }
 
 @media (max-width: 768px) {
+  .products {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .product-card {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .product-content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
   .products-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .product-card {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .buy-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
   }
 }

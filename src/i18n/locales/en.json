@@ -6,7 +6,7 @@
     "nav.contact": "Contact",
     "hero.title": "Traditional Rose Petal Jam",
     "hero.subtitle": "For Health and Vitality",
-    "hero.description": "Experience the authentic taste of our handcrafted Gulkand, made with carefully selected rose petals and pure ingredients.",
+    "hero.description": "Experience the authentic taste of our handcrafted gulqand, made with carefully selected rose petals and pure ingredients.",
     "hero.cta": "Discover Our Products",
     "hero.tradition": "Traditional Recipe",
     "hero.quality": "Premium Quality",
@@ -19,21 +19,21 @@
     "products.grams": "grams",
     "products.inStock": "In Stock",
     "products.outOfStock": "Out of Stock",
-    "product.classic.title": "Classic Gulkand",
+    "product.classic.title": "Classic gulqand",
     "product.classic.description": "Made from organic Damask roses",
     "product.classic.price": "120,000 sum",
     "product.classic.features": "Features",
     "product.classic.feature1": "100% Natural",
     "product.classic.feature2": "No Preservatives",
     "product.classic.feature3": "Rich in Antioxidants",
-    "product.premium.title": "Premium Gulkand",
+    "product.premium.title": "Premium gulqand",
     "product.premium.description": "With selected Damask roses and honey",
     "product.premium.price": "150,000 sum",
     "product.premium.features": "Features",
     "product.premium.feature1": "Premium Quality",
     "product.premium.feature2": "With Natural Honey",
     "product.premium.feature3": "Exquisite Taste",
-    "product.royal.title": "Royal Gulkand",
+    "product.royal.title": "Royal gulqand",
     "product.royal.description": "Enriched with saffron and cardamom",
     "product.royal.price": "200,000 sum",
     "product.royal.features": "Features",
@@ -41,13 +41,13 @@
     "product.royal.feature2": "With Cardamom",
     "product.royal.feature3": "Royal Recipe",
     "gallery.title": "Gallery",
-    "gallery.description": "Take a journey through our production process and discover the magic of Gulkand making",
+    "gallery.description": "Take a journey through our production process and discover the magic of gulqand making",
     "gallery.viewMore": "View More",
     "gallery.production": "Our Production Line",
     "gallery.packaging": "Premium Packaging",
     "gallery.quality": "Quality Control",
     "gallery.tradition": "Traditional Methods",
-    "benefits.title": "Benefits of Gulkand",
+    "benefits.title": "Benefits of gulqand",
     "benefits.history": "Based on ancient traditions",
     "benefits.natural": "100% natural",
     "benefits.production": "Modern production",
@@ -65,31 +65,73 @@
     "benefits.list.10": "Improves sleep",
     "benefits.list.11": "Purifies blood",
     "benefits.list.12": "Provides energy and vitality",
-    "about.title": "About Us",
-    "about.description": "We pass down the art of making Gulkand from generation to generation",
-    "about.history": "Our History",
-    "about.mission": "Our Mission",
-    "about.vision": "Our Vision",
-    "about.values": "Our Values",
-    "about.team": "Our Team",
-    "about.experience": "Years of Experience",
-    "about.customers": "Satisfied Customers",
-    "about.quality": "Quality Guarantee",
+"about": {
+    "title": "About Us",
+    "description": [
+      "Gulqand is a sweet preserve made from rose petals, a delicacy that has been cherished for centuries in traditional Indian and Persian cuisine. Our journey began with a passion for preserving this ancient art of making rose petal jam.",
+      "Each jar of our gulqand is crafted with carefully selected rose petals, processed using traditional methods that have been passed down through generations. We take pride in maintaining the authenticity while ensuring the highest quality standards.",
+      "Our commitment to quality begins with selecting the finest roses, harvested at dawn when their fragrance is at its peak. The petals are then processed with pure sugar using time-honored techniques to create this magical preserve."
+    ],
+    "years": "Years of",
+    "excellence": "Excellence"
+  },
+  "product": {
+    "classic": {
+      "title": "Classic gulqand",
+      "description": "Traditional gulqand made from 100% natural rose petals.",
+      "features": [
+        "100% Natural",
+        "No Preservatives",
+        "Rich in Antioxidants",
+        "Gram: 300"
+
+      ]
+    },
+    "premium": {
+      "title": "Big gulqand",
+      "description": "gulqand with natural honey, rich taste and benefits.",
+      "features": [
+        "Premium Quality",
+        "Exquisite Taste",
+        "Gram: 400"
+
+      ]
+    },
+    "royal": {
+      "title": "Mini gulqand",
+      "description": "Exclusive recipe with saffron and cardamom.",
+      "price":"Out of stock",
+      "features": [
+        "With Saffron",
+        "Royal Recipe",
+        "Gram: 250"
+      ]
+    }
+  },
+  "footer": {
+    "contacts": "Contacts",
+    "email": "Email",
+    "phone": "Phone",
+    "navigation": "Navigation",
+    "followUs": "Follow us",
+    "rights": "All rights reserved",
+    "privacyPolicy": "Privacy Policy"
+  },
 "contact": {
     "title": "Get in Touch",
     "description": "Have questions about our products? We'd love to hear from you!",
     "visit": "Visit Us",
-    "address": "123 Rose Garden Street\nMumbai, India 400001",
+    "address": "31 Babakhanov Street, Salar Urban Settlement, Kibray District, Tashkent Region",
     "call": "Call Us",
     "phone": "+998 97 765 19 41 \nMon-Sat: 9:00 AM - 6:00 PM",
     "emailTitle": "Email Us",
-    "email": "info@gulkand.com\nsupport@gulkand.com",
+    "email": "info@gulqand.com\nsupport@gulqand.com",
     "name": "Your Name",
     "emailPlaceholder": "Your Email",
     "message": "Your Message",
     "send": "Send Message"
   },
-    "footer.logoAlt": "Gulkand Logo",
+    "footer.logoAlt": "gulqand Logo",
     "footer.description": "Preserving the ancient art of making rose petal jam with traditional methods and pure ingredients.",
     "footer.quickLinks": "Quick Links",
     "footer.products": "Products",
@@ -99,13 +141,13 @@
     "footer.address": "Address",
     "footer.phone": "Phone",
     "footer.email": "Email",
-    "footer.copyright": "© 2024 Gulkand. All rights reserved.",
+    "footer.copyright": "© 2024 gulqand. All rights reserved.",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
     
       "benefits": {
-        "title": "Benefits of Gulkand",
-        "intro": "Gulkand was first consumed in Ancient India and Persia (900 BC) for its rich taste, healing properties, and unique characteristics.",
+        "title": "Benefits of gulqand",
+        "intro": "gulqand was first consumed in Ancient India and Persia (900 BC) for its rich taste, healing properties, and unique characteristics.",
         "features": {
           "natural": "Natural product",
           "natural_desc": "100% natural, without additives.",
@@ -116,10 +158,10 @@
         },
         
           "list": [
-            { "number": "01", "title": "Digestive System", "text": "Gulkand reduces stomach acidity and helps treat ulcers." },
-            { "number": "02", "title": "Oral Health", "text": "Gulkand strengthens teeth and gums, and can be used as a natural breath freshener." },
+            { "number": "01", "title": "Digestive System", "text": "gulqand reduces stomach acidity and helps treat ulcers." },
+            { "number": "02", "title": "Oral Health", "text": "gulqand strengthens teeth and gums, and can be used as a natural breath freshener." },
             { "number": "03", "title": "Women's Health", "text": "Helps with female reproductive disorders (dysmenorrhea)." },
-            { "number": "04", "title": "Reproductive Health", "text": "Gulkand is beneficial for both male and female reproductive health." },
+            { "number": "04", "title": "Reproductive Health", "text": "gulqand is beneficial for both male and female reproductive health." },
             { "number": "05", "title": "Digestion", "text": "Aids digestion and improves appetite." },
             { "number": "06", "title": "Detoxification", "text": "Cleanses the blood and removes toxins from the body." },
             { "number": "07", "title": "Skin Health", "text": "Helps treat skin issues such as acne and boils." },

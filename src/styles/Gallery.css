@@ -5,7 +5,7 @@
 }
 
 .gallery-container {
-  max-width: 1200px;
+  max-width: 2200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -745,4 +745,35 @@
   height: 100px;
   top: 50%;
   right: 10%;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Соотношение сторон 16:9 */
+  overflow: hidden;
+  border-radius: 12px; /* Закругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Декоративные стили */
+.image-container.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.image-container.video .overlay-content {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }

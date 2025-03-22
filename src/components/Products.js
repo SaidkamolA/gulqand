@@ -9,42 +9,32 @@ const Products = () => {
 
   const products = [
     {
+      id: 'royal',
+      title: t('product.royal.title'),
+      description: t('product.royal.description'),
+      price: t('product.royal.price'),
+      features: t('product.royal.features', { returnObjects: true }),
+      image: royalImg
+    },
+    {
       id: 'classic',
       title: t('product.classic.title'),
       description: t('product.classic.description'),
-      price: '120,000 сум',
-      features: [
-        '100% Натуральный',
-        'Без консервантов',
-        'Богат антиоксидантами'
-      ],
+      price: '30,000 сум',
+      features: t('product.classic.features', { returnObjects: true }),
       image: classicImg
     },
     {
       id: 'premium',
       title: t('product.premium.title'),
       description: t('product.premium.description'),
-      price: '150,000 сум',
-      features: [
-        'Премиум качество',
-        'С натуральным мёдом',
-        'Изысканный вкус'
-      ],
+      price: '50,000 сум',
+      features: t('product.premium.features', { returnObjects: true }),
       image: premiumImg
-    },
-    {
-      id: 'royal',
-      title: t('product.royal.title'),
-      description: t('product.royal.description'),
-      price: '200,000 сум',
-      features: [
-        'С шафраном',
-        'С кардамоном',
-        'Королевский рецепт'
-      ],
-      image: royalImg
     }
-  ];
+
+];
+
 
   return (
     <section className="products" id="products">
@@ -70,9 +60,7 @@ const Products = () => {
                 </ul>
                 <div className="product-footer">
                   <span className="product-price">{product.price}</span>
-                  <button className="buy-button">
-                    {t('products.buyNow')}
-                  </button>
+
                 </div>
               </div>
             </div>

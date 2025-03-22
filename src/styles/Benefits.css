@@ -57,9 +57,12 @@
   background: white;
   padding: 2rem;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feature:hover {
@@ -77,11 +80,14 @@
   font-size: 1.5rem;
   color: #2d3436;
   margin-bottom: 1rem;
+  max-width: 90%;
 }
 
 .feature p {
   color: #636e72;
   line-height: 1.6;
+  max-width: 90%;
+  word-wrap: break-word;
 }
 
 .benefits-grid {
@@ -185,6 +191,11 @@
 
   .feature {
     padding: 1.5rem;
+    text-align: left;
+  }
+
+  .feature h3, .feature p {
+    max-width: 100%;
   }
 
   .benefit-card {
