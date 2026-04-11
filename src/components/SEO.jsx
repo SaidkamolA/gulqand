@@ -83,12 +83,7 @@ function SEO({
       <meta name="geo.region" content="UZ-TK" />
       <meta name="geo.placename" content="Tashkent" />
 
-      {process.env.REACT_APP_GOOGLE_SITE_VERIFICATION ? (
-        <meta
-          name="google-site-verification"
-          content={process.env.REACT_APP_GOOGLE_SITE_VERIFICATION}
-        />
-      ) : null}
+      {/* google-site-verification: см. public/index.html (статичный тег для GSC) */}
 
       {heroPreloadUrl ? <link rel="preload" as="image" href={heroPreloadUrl} fetchpriority="high" /> : null}
 
