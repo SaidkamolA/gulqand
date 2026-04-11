@@ -83,7 +83,9 @@ function SEO({
       <meta name="geo.region" content="UZ-TK" />
       <meta name="geo.placename" content="Tashkent" />
 
-      {/* google-site-verification: см. public/index.html (статичный тег для GSC) */}
+      <meta name="robots" content="index, follow" />
+
+      {/* Google Search Console: paste verification meta in public/index.html (see HTML comment there) */}
 
       {heroPreloadUrl ? <link rel="preload" as="image" href={heroPreloadUrl} fetchpriority="high" /> : null}
 

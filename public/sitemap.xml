@@ -2,33 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gulqand.uz/uz</loc>
+    <loc>https://gulqand.vercel.app/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://www.gulqand.uz/uz" />
-    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.gulqand.uz/ru" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.gulqand.uz/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gulqand.uz/uz" />
+    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://gulqand.vercel.app/uz" />
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://gulqand.vercel.app/ru" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gulqand.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gulqand.vercel.app/uz" />
   </url>
   <url>
-    <loc>https://www.gulqand.uz/ru</loc>
+    <loc>https://gulqand.vercel.app/uz</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://www.gulqand.uz/uz" />
-    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.gulqand.uz/ru" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.gulqand.uz/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gulqand.uz/uz" />
+    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://gulqand.vercel.app/uz" />
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://gulqand.vercel.app/ru" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gulqand.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gulqand.vercel.app/uz" />
   </url>
   <url>
-    <loc>https://www.gulqand.uz/en</loc>
+    <loc>https://gulqand.vercel.app/ru</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://www.gulqand.uz/uz" />
-    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.gulqand.uz/ru" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.gulqand.uz/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gulqand.uz/uz" />
+    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://gulqand.vercel.app/uz" />
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://gulqand.vercel.app/ru" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gulqand.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gulqand.vercel.app/uz" />
+  </url>
+  <url>
+    <loc>https://gulqand.vercel.app/en</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="uz-UZ" href="https://gulqand.vercel.app/uz" />
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://gulqand.vercel.app/ru" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gulqand.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gulqand.vercel.app/uz" />
   </url>
 </urlset>

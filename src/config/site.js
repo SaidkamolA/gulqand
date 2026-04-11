@@ -40,11 +40,13 @@ export const LOCALE_MAP = {
 };
 
 /**
- * Production base URL (no trailing slash). Set REACT_APP_SITE_URL on Vercel.
+ * Canonical site origin (no trailing slash).
+ * On Vercel set: REACT_APP_SITE_URL=https://gulqand.vercel.app
+ * Falls back to current origin in the browser (localhost in dev).
  */
 export function getSiteUrl() {
   const env = typeof process !== 'undefined' && process.env.REACT_APP_SITE_URL;
   if (env) return env.replace(/\/$/, '');
   if (typeof window !== 'undefined' && window.location?.origin) return window.location.origin;
-  return 'https://www.gulqand.uz';
+  return 'https://gulqand.vercel.app';
 }

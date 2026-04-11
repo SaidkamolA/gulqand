@@ -35,14 +35,14 @@ export const SEO_BY_LANG = {
     ],
   },
   en: {
-    title: 'Gulqand – Fresh sweets, fruit & grocery delivery in Tashkent',
+    title: 'Gulqand – Online Store in Tashkent',
     description:
-      'Buy fresh sweets, fruit, and groceries online in Tashkent, Uzbekistan. Fast delivery and fair prices. Traditional rose gulqand and local products at Gulqand.',
+      'Gulqand is an online store in Tashkent offering sweets, groceries, fruits, and local products with convenient ordering and delivery.',
     keywords:
-      'buy sweets online Tashkent, grocery delivery Uzbekistan, gulqand, fruit delivery Tashkent, Uzbekistan online store, halal sweets',
-    ogTitle: 'Gulqand – Sweets & fruit delivery | Tashkent',
+      'Gulqand, online store Tashkent, sweets delivery, grocery delivery Uzbekistan, fruit delivery Tashkent, local products',
+    ogTitle: 'Gulqand – Online Store in Tashkent',
     ogDescription:
-      'Order sweets, fresh fruit, and groceries with delivery across Tashkent.',
+      'Sweets, groceries, fruits, and local products in Tashkent — order online with convenient delivery.',
     products: [
       { slug: 'classic', name: 'Classic Gulqand' },
       { slug: 'premium', name: 'Premium Gulqand' },

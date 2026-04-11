@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.gulqand.uz/sitemap.xml
+Sitemap: https://gulqand.vercel.app/sitemap.xml
