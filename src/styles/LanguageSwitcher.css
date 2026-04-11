@@ -1,0 +1,90 @@
+/* Переключатель языков в навбаре — контрастный фон на белой шапке */
+
+.language-switcher {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 8px;
+  border-radius: 999px;
+  /* Видимая «пилюля» на белом навбаре */
+  background: linear-gradient(180deg, #f1f3f5 0%, #e9ecef 100%);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  flex-shrink: 0;
+}
+
+.lang-button {
+  background: transparent;
+  border: none;
+  padding: 8px 12px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 999px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lang-button:hover {
+  background: rgba(233, 30, 99, 0.12);
+  color: #c2185b;
+}
+
+.lang-button.active {
+  background: #e91e63;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(233, 30, 99, 0.35);
+}
+
+.lang-button:focus-visible {
+  outline: 2px solid #e91e63;
+  outline-offset: 2px;
+}
+
+@media (max-width: 1024px) {
+  .language-switcher {
+    padding: 5px 6px;
+    gap: 3px;
+  }
+
+  .lang-button {
+    padding: 7px 10px;
+    min-width: 38px;
+    min-height: 38px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .language-switcher {
+    padding: 4px 5px;
+    gap: 2px;
+  }
+
+  .lang-button {
+    padding: 6px 8px;
+    min-width: 36px;
+    min-height: 36px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .lang-button {
+    padding: 6px 6px;
+    font-size: 0.68rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lang-button {
+    transition: none;
+  }
+}

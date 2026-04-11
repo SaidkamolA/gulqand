@@ -1,0 +1,45 @@
+.language-switcher {
+  display: flex;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.lang-button {
+  background: none;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #2d3436;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lang-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.lang-button.active {
+  background: #00b894;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 184, 148, 0.3);
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    padding: 3px;
+  }
+
+  .lang-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+} 
