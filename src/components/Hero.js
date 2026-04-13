@@ -49,7 +49,7 @@ const Hero = () => {
             <img
               src={logo}
               alt={t('footer.logoAlt')}
-              fetchPriority="high"
+              fetchpriority="high"
               decoding="async"
               style={{
                 backgroundColor: 'transparent',

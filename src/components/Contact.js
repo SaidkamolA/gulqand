@@ -83,11 +83,6 @@ const Contact = () => {
               <h3>{t("contact.call")}</h3>
               <p>{t("contact.phone")}</p>
             </div>
-            <div className="info-item">
-              <i className="fas fa-envelope"></i>
-              <h3>{t("contact.emailTitle")}</h3>
-              <p>{t("contact.email")}</p>
-            </div>
           </div>
 
           <div

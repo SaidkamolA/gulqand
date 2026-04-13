@@ -18,6 +18,7 @@
   gap: 30px;
 }
 
+
 .info-item {
   display: flex;
   flex-direction: column;
@@ -96,6 +97,7 @@
   .yandex-map {
     height: 300px;
   }
+
 }
 
 /* Смартфоны (до 768px) */
