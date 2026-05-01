@@ -1,0 +1,107 @@
+.gulkand-page {
+  min-height: 100vh;
+  background: #fff;
+  color: #222;
+}
+
+.gulkand-main {
+  display: block;
+}
+
+.gulkand-hero {
+  background: linear-gradient(180deg, #fff7fb 0%, #ffffff 100%);
+  padding: 40px 0 24px;
+}
+
+.gulkand-hero-inner {
+  display: grid;
+  gap: 16px;
+}
+
+.gulkand-hero-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gulkand-hero h1 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.25;
+  color: #1f1f1f;
+}
+
+.gulkand-hero p {
+  max-width: 920px;
+  font-size: 1.06rem;
+}
+
+.gulkand-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.gulkand-content {
+  padding-top: 28px;
+}
+
+.gulkand-article {
+  margin-bottom: 34px;
+}
+
+.gulkand-article h2 {
+  font-size: clamp(1.35rem, 2.1vw, 1.9rem);
+  margin-bottom: 12px;
+  color: #202020;
+}
+
+.gulkand-article p {
+  margin-bottom: 12px;
+  font-size: 1.02rem;
+}
+
+.gulkand-faq {
+  background: #fff8fb;
+}
+
+.gulkand-faq h2 {
+  font-size: clamp(1.35rem, 2.1vw, 1.9rem);
+  margin-bottom: 16px;
+}
+
+.gulkand-faq-list {
+  display: grid;
+  gap: 14px;
+}
+
+.gulkand-faq-item {
+  background: #fff;
+  border: 1px solid #ffdbe9;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.gulkand-faq-item h3 {
+  font-size: 1.04rem;
+  margin-bottom: 6px;
+}
+
+.gulkand-faq-item p {
+  font-size: 0.98rem;
+}
+
+.gulkand-cta {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #8b1b56;
+}
+
+@media (max-width: 768px) {
+  .gulkand-hero {
+    padding-top: 22px;
+  }
+
+  .gulkand-faq-item {
+    padding: 12px;
+  }
+}
