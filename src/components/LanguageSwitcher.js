@@ -21,9 +21,7 @@ const LanguageSwitcher = () => {
       await i18n.changeLanguage(lng);
       localStorage.setItem('language', lng);
       const hash = typeof window !== 'undefined' ? window.location.hash : '';
-      const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
-      const suffix = pathName.replace(/^\/(uz|ru|en)/, '');
-      navigate(`/${lng}${suffix}${hash}`, { replace: true });
+      navigate(`/${lng}${hash}`, { replace: true });
     } catch (error) {
       console.error('Error changing language:', error);
     }

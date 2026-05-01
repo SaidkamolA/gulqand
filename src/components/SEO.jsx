@@ -25,7 +25,6 @@ function SEO({
   image,
   pathSuffix = '',
   heroPreloadUrl,
-  structuredData,
 }) {
   const safeLang = SUPPORTED.includes(lang) ? lang : 'en';
   const siteUrl = getSiteUrl();
@@ -45,7 +44,7 @@ function SEO({
       : `${siteUrl}${image.startsWith('/') ? '' : '/'}${image}`
     : `${siteUrl}/logo.png`;
 
-  const jsonLd = structuredData || buildStructuredData(safeLang);
+  const jsonLd = buildStructuredData(safeLang);
 
   return (
     <Helmet prioritizeSeoTags>
@@ -85,6 +84,8 @@ function SEO({
       <meta name="geo.placename" content="Tashkent" />
 
       <meta name="robots" content="index, follow" />
+
+      {/* Google Search Console: paste verification meta in public/index.html (see HTML comment there) */}
 
       {heroPreloadUrl ? <link rel="preload" as="image" href={heroPreloadUrl} fetchpriority="high" /> : null}
 
