@@ -85,7 +85,7 @@
       },
       "product": {
         "classic": {
-          "title": "Ortacha Gulqand",
+          "title": "O'rtacha Gulqand",
           "description": "100% tabiiy atirgul barglaridan tayyorlangan an’anaviy gulqand.",
           "features": [
             "100% Tabiiy",
@@ -105,7 +105,7 @@
           ]
         },
         "royal": {
-          "title": "Kichkina Gulqandi",
+          "title": "Kichkina Gulqand",
           "description": "Za’faron va kardamon bilan boyitilgan maxsus retsept.",
           "price":"Mavjud emas",
           "features": [
@@ -144,7 +144,7 @@
       "call": "Bizga qo'ng'iroq qiling",
       "phone": "+998 95 144 39 00 \nDushanba-Shanba: 9:00 - 18:00",
       "emailTitle": "Bizga yozing",
-      "email": "info@gulkand.com\nsupport@gulkand.com",
+      "email": "gulqand.uz@gmail.com",
       "name": "Ismingiz",
       "emailPlaceholder": "Emailingiz",
       "message": "Xabaringiz",
