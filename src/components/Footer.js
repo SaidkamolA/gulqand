@@ -17,7 +17,7 @@ const Footer = () => {
             <h3>{t("footer.contacts")}</h3>
             <p>
               <i className="fas fa-envelope" aria-hidden /> {t("footer.email")}:
-              <a href="mailto:gulqand@email.com"> gulqand@email.com</a>
+              <a href="mailto:gulqand.uz@gmail.com"> gulqand.uz@gmail.com</a>
             </p>
             <p>
               <i className="fas fa-phone" aria-hidden /> {t("footer.phone")}:
